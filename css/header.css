@@ -1,3 +1,23 @@
 header {
+  display: flex;
   background-color: var(--background-tertiary-color);
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 48px;
+}
+
+.logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+nav {
+  display: none;
+}
+
+.header-menu-hamburguer {
+  width: 32px;
+  height: 24px;
 }
