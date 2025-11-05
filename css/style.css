@@ -6,15 +6,19 @@
 }
 
 :root{
+    --primary-color: #8F0101 ;
+    --secondary-color: #B81515 ;
+
     --background-primary-color: #ffffff ;
     --background-secondary-color: #F5F5F5 ;
     --background-tertiary-color: #000000 ;
 
-    --button-primary-color: #8F0101 ;
-    --button-secondary-color: #B81515 ;
-
     --text-primary-color: #222222 ;
     --text-secondary-color: #FFFFFF ;
+
+    --title-font-weight: 700;
+    --text-font-weight: 400;
+    --menu-font-weight: 500;
 
 }
 
@@ -25,6 +29,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Montserrat";
+}
+
 h1{
-    color: var(--button-primary-color);
+    color: var(--text-primary-color);
+    font-weight: var(--title-font-weight);
 }
