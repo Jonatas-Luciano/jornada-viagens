@@ -32,7 +32,11 @@ body {
   font-family: "Montserrat";
 }
 
-h1 {
-  color: var(--text-primary-color);
-  font-weight: var(--title-font-weight);
+header {
+  background-color: var(--background-tertiary-color);
 }
+
+a{
+  text-decoration: none;
+}
+
