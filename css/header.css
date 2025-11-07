@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 38px 48px;
+  position: relative;
 }
 
 .logo {
@@ -15,6 +16,13 @@ header {
 
 input[type="checkbox"]:checked ~ nav {
   display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
+  padding: 0 0 1rem 2rem;
+  color: var(--text-secondary-color);
 }
 
 nav {
@@ -24,4 +32,16 @@ nav {
 .header-menu-hamburguer {
   width: 32px;
   height: 24px;
+}
+
+.dropdownMenu-list{
+  list-style: none;
+}
+
+.dropdownMenu-list li{
+  margin: 16px 0;
+}
+
+.dropdownMenu-text {
+  color: var(--text-secondary-color);
 }
