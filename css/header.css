@@ -34,14 +34,37 @@ nav {
   height: 24px;
 }
 
-.dropdownMenu-list{
+.menu-link-list {
   list-style: none;
 }
 
-.dropdownMenu-list li{
+.menu-link-list li {
   margin: 16px 0;
 }
 
-.dropdownMenu-text {
+.menu-link-list a {
   color: var(--text-secondary-color);
+  font-weight: var(--menu-font-weight);
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-menu {
+    margin-top: 0;
+    width: 70%;
+  }
+  .header-menu label {
+    display: none;
+  }
+  nav {
+    display: block;
+  }
+  .menu-link-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-link-list a {
+    font-size: 24px;
+  }
 }
