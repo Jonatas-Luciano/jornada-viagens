@@ -8,10 +8,14 @@ header {
   position: relative;
 }
 
-.logo {
+.logo-mobile {
   display: inline-block;
   width: 68px;
   height: 64px;
+}
+
+.logo-desktop {
+  display: none;
 }
 
 input[type="checkbox"]:checked ~ nav {
@@ -66,5 +70,35 @@ nav {
   }
   .menu-link-list a {
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 120px;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+  .logo-desktop {
+    display: inline-block;
+    width: 260px;
+    height: 64px;
+  }
+
+  .header-menu {
+    width: 40%;
+  }
+
+  .menu-link-list {
+    justify-content: space-around;
+  }
+
+  .menu-link-list a:hover {
+    color: var(--primary-color);
   }
 }
