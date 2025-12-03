@@ -1,0 +1,40 @@
+.offers-cards{
+  display: flex;
+  align-content: center;
+}
+
+.card {
+  color: var(--text-secondary-color);
+  padding: 24px 16px;
+  width: 312px;
+  height: 288px;
+  border-radius: 16px;
+  text-align: center;
+  background-color: blue;
+}
+
+.card header {
+  padding: 0;
+  display: block;
+  background-color: transparent;
+  position: static;
+}
+
+.card header p {
+  font-size: 20px;
+  font-weight: var(--text-font-weight);
+}
+
+.card header h3 {
+  font-size: 40px;
+  font-weight: var(--title-font-weight);
+  margin-top: 8px;
+}
+
+.card header h3 span {
+  display: inline-block;
+  font-size: 32px;
+  margin: 24px 0;
+}
+
+
