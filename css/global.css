@@ -12,6 +12,7 @@
   --background-primary-color: #ffffff;
   --background-secondary-color: #f5f5f5;
   --background-tertiary-color: #000000;
+  --background-quaternary-color: #D9D9D9;
 
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
@@ -38,10 +39,11 @@ a {
 
 .section-title {
   text-align: center;
+  margin-top: 88px;
 }
 
 .section-title h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: var(--title-font-weight);
   color: var(--text-primary-color);
 }
